@@ -1,0 +1,54 @@
+.container-id{
+    width: 100%;
+    max-width: 600px;
+    height: fit-content;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 50px;
+}
+
+.container-id img{
+    width: 150px;
+    height: auto;
+    display: flex;
+    justify-self: center;
+}
+
+.container-id .box{
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+
+.container-id .box h2{
+    width: 100%;
+    font-size: 26px;
+    font-weight: 500;
+    padding: 5px;
+    color: #272729;
+    text-align: center;
+}
+
+.container-id .box h4{
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: #272729;
+    text-align: center;
+}
+
+.container-id form {
+    display: flex;
+}
+
+.container-id .copy{
+    display: flex;
+    align-self: center;
+    margin-left: 10px;
+}   

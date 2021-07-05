@@ -1,0 +1,29 @@
+.error-container{
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 55% 45%;
+    align-items: center;
+}
+
+.error-container .texto{
+    padding: 50px;
+}
+
+.error-container .texto h1{
+    font-size: 40px;
+    color: #272729;
+}
+
+.error-container .texto p{
+    font-size: 20px;
+    color: #272729;
+}
+
+.error-container .imagem img{
+    width: 900px;
+    height: auto;
+}
